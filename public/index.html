@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CodeAI</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <div class="logo">
+      Code<span>AI</span>
+    </div>
+
+    <button class="nav active">
+      💬 Nouveau chat
+    </button>
+
+    <button class="nav">
+      📁 Projets
+    </button>
+
+    <button class="nav">
+      ⚙️ Paramètres
+    </button>
+
+    <div class="sidebar-bottom">
+
+      <button class="nav">
+        👤 Compte
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <main class="main">
+
+    <header class="topbar">
+
+      <strong>CodeAI</strong>
+
+      <span class="status">
+        ● Prototype
+      </span>
+
+    </header>
+
+
+    <section id="chat">
+
+      <div class="welcome">
+
+        <h1>
+          Que veux-tu coder ?
+        </h1>
+
+        <p>
+          Décris ton idée et CodeAI te proposera du code.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <form id="chatForm" class="composer">
+
+      <textarea
+        id="prompt"
+        rows="2"
+        placeholder="Ex : crée-moi un bouton HTML..."
+      ></textarea>
+
+      <button type="submit">
+        Envoyer ➜
+      </button>
+
+    </form>
+
+  </main>
+
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
